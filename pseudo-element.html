@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pseudo pseudo vai bon</title>
     <style>
+         .nav-title{
+            display: flex;
+            text-align: center;
+            justify-content: space-around;
+            background-color: white;
+            box-shadow: 10px 10px 20px gainsboro;
+        }
+        .none{
+            text-decoration: none;
+        }
         h1::before {
             content: 'Hello';
             color: limegreen;
@@ -35,10 +45,18 @@
             height: 2px;
             width: 100%;
         }
-        
+
     </style>
 </head>
+
 <body>
+    <header>
+        <nav class="nav-title">
+            <h2><a class="none" href="index.html">Home</a></h2>
+            <h2><a class="none" href="vacation.html">Vacation</a></h2>
+            <h2><a class="none" href="pseudo-element.html">pseudo</a></h2>
+            </nav>
+    </header>
     <h1>Having Fon With Pseudo Vai Bon</h1>
     <h1>Having Fon With Bondu Bandoki</h1>
     <section>
